@@ -3,10 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="/static/images/icc.ico" />
-        <title>Your Resume</title>
+        <title>home</title>
         <link rel="stylesheet" href="/static/css/resumestyles1.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap">
         <link href='https://unpkg.com/css.gg@2.0.0/icons/css/code-slash.css' rel='stylesheet'>
         <link href='https://unpkg.com/css.gg@2.0.0/icons/css/media-live.css' rel='stylesheet'>
         <link href='https://unpkg.com/css.gg@2.0.0/icons/css/clapper-board.css' rel='stylesheet'>
@@ -18,7 +16,7 @@
     <body>
         <div class="resume-content">
             <div class="header">
-                <div class="item"><a href="{% url 'index' %}">Home</a></div>
+                <div class="item"><a href="">Home</a></div>
                 <button type="button" class="download" id="downloadResume" onclick="downloadResumeAsPDF('resume', 'my_resume')">Download Resume</button>
             </div>
             {% if latest_applicant %}
@@ -77,7 +75,7 @@
                         <div class="box2">
                             <div class="header">
                                 <div class="header-1" id="eduname1">{{ latest_applicant.eduname1 }}</div>
-                                <div class="header-2">Oxford University</div>
+                                <div class="header-2">{{ latest_applicant.Uni1 }}</div>
                             </div>
                             <div class="year"><span id="startdate2">{{ latest_applicant.startdate }}</span>-<span id="enddate2">{{ latest_applicant.enddate }}</span></div>
                             <div class="para">
@@ -89,7 +87,7 @@
                         <div class="box2">
                             <div class="header">
                                 <div class="header-1" id="eduname2">{{ latest_applicant.eduname2 }}</div>
-                                <div class="header-2">Oxford University</div>
+                                <div class="header-2">{{ latest_applicant.Uni2 }}</div>
                             </div>
                             <div class="year"><span id="startdate2">{{ latest_applicant.startdate2 }}</span>-<span id="enddate2">{{ latest_applicant.enddate2 }}</span></div>
                             <div class="para">
@@ -101,7 +99,7 @@
                         <div class="box2">
                             <div class="header">
                                 <div class="header-1"  id="eduname3">{{ latest_applicant.eduname3 }}</div>
-                                <div class="header-2">Oxford University</div>
+                                <div class="header-2">{{ latest_applicant.Uni3 }}</div>
                             </div>
                             <div class="year"><span id="startdate2">{{ latest_applicant.startdate3 }}</span>-<span id="enddate2">{{ latest_applicant.enddate3 }}</span></div>
                             <div class="para">

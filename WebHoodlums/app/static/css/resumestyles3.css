@@ -239,6 +239,7 @@ h5{
     color: white;
 }
 
+
 /* Education */
 
 div.row-2{
@@ -271,7 +272,7 @@ div.head{
 }
 
 div.box1{
-    height: 200px;
+    height: 220px;
     width: 360px;
     top:5%;
     flex-direction: column;
@@ -282,7 +283,7 @@ div.box1{
 }
 
 div.box2{
-    height: 160px;
+    height: 220px;
     width: 400px;
     padding:5%;
     background: #202026;
@@ -327,6 +328,8 @@ div.year{
     color: #1296E0;
     font-size: 14px;
     font-family: Plus Jakarta Sans;
+    position:relative;
+    top:20%;
     font-weight: 500;
     line-height: 24px;
     word-wrap: break-word
@@ -335,6 +338,8 @@ div.year{
 div.para{
     width: 390px;
     opacity: 0.90;
+    position:relative;
+    top:28%;
     justify-content: flex-start;
     align-items: flex-start;
     display: inline-flex
@@ -348,7 +353,6 @@ p.box3{
     line-height: 23px;
     word-wrap: break-word
 }
-
 /* tech skills */
 
 div.row2-right{
@@ -395,7 +399,7 @@ div.container1{
     height: 150px;
     position: relative;
     left: 25%;
-    top: 5%;
+    top: 8%;
     right: inherit;
     float: left;
     padding-bottom: 4% ;
@@ -478,7 +482,7 @@ div#slide4{
 /* circles */
 
 div.row-3{
-    margin-top: 15%;
+    margin-top: 25%;
     height: 400px;
     width: 400px;
     position: relative;
@@ -506,7 +510,7 @@ div.new1{
     position: relative;
     width: 100%;
     left: 13%;
-    margin-top:5%;
+    margin-top:7%;
     display: flex;
     flex-flow: column
 }
@@ -556,7 +560,6 @@ h4.h{
 }
 
 /*  */
-
 
 /* do */
 div.row-4{
